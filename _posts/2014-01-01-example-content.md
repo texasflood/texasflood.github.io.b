@@ -133,6 +133,10 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
+$$y=x^2$$
+$$\sin(x^2)$$
+$$\begin{bmatrix}a & b\\\\c & d\end{bmatrix}$$
+$$\newcommand\T{\Rule{0pt}{1em}{.3em}} \begin{array}{|c|c|} \hline X & P(X = i) \T \\\\ \hline 1 \T & 1/6 \\\\\hline 2 \T & 1/6 \\\\\hline 3 \T & 1/6 \\\\\hline 4 \T & 1/6 \\\\\hline 5 \T & 1/6 \\\\\hline 6 \T & 1/6 \\\\\hline \end{array}$$
 -----
 
 Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>

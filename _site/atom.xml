@@ -4,7 +4,7 @@
  <title>Poole</title>
  <link href="http://getpoole.com/atom.xml" rel="self"/>
  <link href="http://getpoole.com/"/>
- <updated>2015-02-25T10:58:43+00:00</updated>
+ <updated>2015-02-25T11:47:23+00:00</updated>
  <id>http://getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -199,7 +199,11 @@
 
 &lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;p&gt;$$y=x^2$$
+$$\sin(x^2)$$
+$$\begin{bmatrix}a &amp;amp; b\\c &amp;amp; d\end{bmatrix}$$&lt;/p&gt;
+
+&lt;h2&gt;$$\newcommand\T{\Rule{0pt}{1em}{.3em}} \begin{array}{|c|c|} \hline X &amp;amp; P(X = i) \T \\ \hline 1 \T &amp;amp; 1/6 \\\hline 2 \T &amp;amp; 1/6 \\\hline 3 \T &amp;amp; 1/6 \\\hline 4 \T &amp;amp; 1/6 \\\hline 5 \T &amp;amp; 1/6 \\\hline 6 \T &amp;amp; 1/6 \\\hline \end{array}$$&lt;/h2&gt;
 
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </content>
