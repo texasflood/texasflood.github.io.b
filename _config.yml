@@ -17,6 +17,11 @@ author:
   url:            https://twitter.com/mdo
   email:          markdotto@gmail.com
 
+comments :
+  provider : intensedebate
+  intensedebate :
+    account : texasflood
+
 # Custom vars
 version:          1.0.0
 github:
