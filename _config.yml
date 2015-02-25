@@ -15,6 +15,8 @@ author:
   name:           Anas Syed
   url:            https://texasflood.github.com
 
+gems: [jekyll-redirect-from]
+
 comments :
   provider : intensedebate
   intensedebate :
