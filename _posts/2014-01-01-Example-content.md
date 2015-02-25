@@ -43,5 +43,5 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 $$y=x^2$$
 $$\sin(x^2)$$
 $$\begin{bmatrix}a & b\\\\c & d\end{bmatrix}$$
-$$\newcommand\T{\Rule{0pt}{1em}{.3em}} \begin{array}{|c|c|} \hline X & P(X = i) \T \\\\ \hline 1 \T & 1/6 \\\\\hline 2 \T & 1/6 \\\\\hline 3 \T & 1/6 \\\\\hline 4 \T & 1/6 \\\\\hline 5 \T & 1/6 \\\\\hline 6 \T & 1/6 \\\\\hline \end{array}$$
+$$\newcommand\T{\Rule{0pt}{1em}{.3em}} \begin{array}{|c|c|} \hline \T X & P(X = i) \\\\ \hline 1 \T & 1/6 \\\\\hline 2 \T & 1/6 \\\\\hline 3 \T & 1/6 \\\\\hline 4 \T & 1/6 \\\\\hline 5 \T & 1/6 \\\\\hline 6 \T & 1/6 \\\\\hline \end{array}$$
 -----
