@@ -13,15 +13,15 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
   {{ content }}
 </div>
 <div class="pagination">
-  {% if page.next.url %}
-  <a class="pagination-item older" href="{{page.next.url}}">Newer: {{page.next.title}}</a>
-  {% else %}
-  <span class="pagination-item older">Newer</span>
-  {% endif %}
   {% if page.previous.url %}
   <a class="pagination-item newer" href="{{page.previous.url}}">Older: {{page.previous.title}}</a>
   {% else %}
   <span class="pagination-item newer">Older</span>
+  {% endif %}
+  {% if page.next.url %}
+  <a class="pagination-item older" href="{{page.next.url}}">Newer: {{page.next.title}}</a>
+  {% else %}
+  <span class="pagination-item older">Newer</span>
   {% endif %}
 </div>
 <script>
