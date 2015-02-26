@@ -7,8 +7,8 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            texasflood
-tagline:          Site
+#title:            texasflood
+#tagline:          Site
 url:              https://texasflood.github.com
 baseurl:          /
 author:
