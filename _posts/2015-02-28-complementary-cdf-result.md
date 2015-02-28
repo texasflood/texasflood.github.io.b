@@ -74,7 +74,7 @@ We're nearly there, we just need to prove $[x(F_X(x)-1)]_0^\infty = 0$. A classi
 </p>
 
 <p>
-Now as $F_X(x)=P(X\leq x)$ then $1 - F_X(x) = P(X>x)=\int_x^\infty f_X(t)dt$. Define $s_X(x)=\int_x^\infty f_X(t)dt$ for convenience.
+Now as $F_X(x)=P(X\leq x)$ then $1 - F_X(x) = P(X>x)=\int_x^\infty f_X(t)dt$. Define $s_X(x)=\int_x^\infty f_X(t)dt$ for convenience (also known as the survival function).
 </p>
 
 <p>
