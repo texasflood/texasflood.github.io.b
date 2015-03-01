@@ -70,7 +70,7 @@ By the definition of integration.
 Now we have:
 $$E[X] = [x(F_X(x)-1)]_0^\infty + \int_0^\infty(1-F_X(x))dx$$
 
-We're nearly there, we just need to prove $[x(F_X(x)-1)]_0^\infty = 0$. A classic method to prove something equals 0 is to prove it must be $\geq 0$ and it also must be $\leq 0$.
+We're nearly there, we just need to prove that the $uv$ term $[x(F_X(x)-1)]_0^\infty = 0$. A classic method to prove something equals 0 is to prove it must be $\geq 0$ and it also must be $\leq 0$.
 </p>
 
 <p>
@@ -83,7 +83,11 @@ Back to that pesky $uv$ term:
 $$-[xs_X(x)]_0^\infty = xs_X(x)|_{x=0} - xs_X(x)|_{x\rightarrow\infty}$$
 $$= - xs_X(x)|_{x\rightarrow\infty}$$
 
-As $xs_X(x)|_{x=0} = 0$. Now $x\geq 0$ and $s_X(x)\geq 0$ as $f_X(x)\geq 0$, all by or obvious from definition.
+As $xs_X(x)|_{x=0} = 0$. Let's think about what happens to this term as $x\to\infty$: the $x$ term gets large linearly, but the $s_X(x)$ term goes to 0 as the range of the integral is squashed. Which one wins?
+</p>
+
+<p>
+Now $x\geq 0$ and $s_X(x)\geq 0$ as $f_X(x)\geq 0$, all by or obvious from definition.
 $$\therefore -xs_X(x)|_{x\rightarrow\infty} \leq 0$$
 </p>
 
