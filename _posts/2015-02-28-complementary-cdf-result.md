@@ -14,8 +14,9 @@ $$F_X(x)=P(X\leq x)$$
 $$f_x(x)=\frac{dF_X(x)}{x}$$
 $$s_X(x)=\int_x^\infty f_X(t)dt$$
 <p align="center">
-$X$ is <em>almost surely</em> non-negative and continuous
+$X$ is <em>almost surely*</em> non-negative and continuous
 </p>
+*The difference between almost surely and surely is this: a <em>sure</em> event will always happen, anything else is impossible. E.g. if $X \in [0,1]$, then the event $0\leq X \leq 1$ is a <em>sure</em> event. But the event $0 < X \leq 1$ is an <em>almost sure</em> event. It is almost certain to happen, with a vanishingly small probability of not happening.
 </div>
 </p>
 
