@@ -17,7 +17,6 @@ And add the following:
 {% highlight bash %}
 #Gmail account
 defaults
-logfile ~/msmtp.log
 account gmail
 auth on
 host smtp.gmail.com
