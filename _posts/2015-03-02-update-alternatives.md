@@ -23,6 +23,8 @@ sudo update-alternatives --remove-all liblapack.so.3
 sudo update-alternatives --install /usr/lib/liblapack.so.3 liblapack.so.3 /usr/lib/lapack/liblapack.so.3 10 --slave /usr/lib/liblapack.so.3gf liblapack.so.3gf /usr/lib/lapack/liblapack.so.3
 
 sudo update-alternatives --install /usr/lib/liblapack.so.3 liblapack.so.3 /usr/lib/atlas-base/atlas/liblapack.so.3 5 --slave /usr/lib/liblapack.so.3gf liblapack.so.3gf /usr/lib/atlas-base/atlas/liblapack.so.3
+
+sudo update-alternatives --auto liblapack.so.3
 {% endhighlight %}
 
 Bonus points to anyone who can write a script to automate this.
