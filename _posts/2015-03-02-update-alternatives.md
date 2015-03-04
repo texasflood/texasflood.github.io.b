@@ -67,7 +67,7 @@ sudo update-alternatives --install /usr/lib/libblas.so.3 libblas.so.3 /usr/lib/l
 {% endhighlight %}
 
 <p>
-Explanation: the first argument to {% ihighlight bash %}update-alternatives --install{% endihighlight %}is the generic link which programs will actually use to link shared objects or execute a binary such as {% ihighlight bash %}editor{% endihighlight %}. The second argument is just the name of the program, which is usually just chosen to be the actual filename of the generic link. This is the name that will appear in the {% ihighlight bash %}/etc/alternatives{% endihighlight %} directory. The third argument is the path of the actual location of the binary/shared object/whatever else file. The fourth is the priority - the higher, the more preferential.
+Explanation: the first argument to {% highlight bash %}update-alternatives --install{% endhighlight %}is the generic link which programs will actually use to link shared objects or execute a binary such as {% highlight bash %}editor{% endhighlight %}. The second argument is just the name of the program, which is usually just chosen to be the actual filename of the generic link. This is the name that will appear in the {% highlight bash %}/etc/alternatives{% endhighlight %} directory. The third argument is the path of the actual location of the binary/shared object/whatever else file. The fourth is the priority - the higher, the more preferential.
 </p>
 
 <p>
