@@ -19,8 +19,8 @@ This is a list I will add to as time goes by:
   <tbody>
     <centering>
     <tr>
-      <td>git clean -fd</td>
-      <td>hg purge</td>
+      <td>{% ihighlight bash %}git clean -fd{% endihighlight %}</td>
+      <td>{% ihighlight bash %}hg purge{% endihighlight %}</td>
       <td>Deletes all newly added untracked file and directories</td>
     </tr>
     </centering>
