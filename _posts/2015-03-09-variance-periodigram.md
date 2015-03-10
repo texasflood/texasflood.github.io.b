@@ -2,7 +2,7 @@
 layout: post
 title: Proof of periodogram variance result
 ---
-This is just a rough sketch verifying the periodogram result for spectral estimation:
+This is a proof of the variance of the periodogram spectral estimate for white Gaussian noise:
 
 <img src="/assets/varPeriodogram1.jpg">
 <img src="/assets/varPeriodogram2.jpg">
