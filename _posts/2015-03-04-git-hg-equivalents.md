@@ -23,6 +23,12 @@ This is a list I will add to as time goes by:
       <td>hg purge</td>
       <td>Deletes all newly added untracked file and directories</td>
     </tr>
+    <tr>
+      <td>git add .<br>
+          git ls-files -deleted | xargs git rm</td>
+      <td>hg addremove</td>
+      <td>Adds all untracked files and removes all missing files</td>
+    </tr>
     </centering>
   </tbody>
 </table>
