@@ -129,3 +129,5 @@ Taken from <a href="http://vimcasts.org/blog/2013/11/registers-the-good-the-bad-
 - Option to have non literal remaps, e.g. if we have `nnoremap -o 4o`, then if you type `2-o`, you get 24 new lines, when you might have expected eight.
 
 - Fixing all the small waits due to maps, e.g. pressing `Esc` in visual mode
+
+- Using the up/down arrows in insert mode to move across lines does not preserve column position when passing across the end of a line
