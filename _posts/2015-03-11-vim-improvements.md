@@ -6,7 +6,9 @@ These are things I think Vim needs improving on. Maybe I'll fix them some day.
 
 - Faster regex matching
 
-- A latex IDE that is minimal (doesn't clutter your maps) but provides solid functionality for compiling, viewing, indentation and error parsing. I have a set up that nearly does this. But there is a very subtle bug in <a href="http://www.vim.org/scripts/script.php?script_id=2325">this script</a> related to how it finds filenames. Need to remember what this is and fix it.
+- A latex IDE that is minimal (doesn't clutter your maps) but provides solid functionality for compiling, viewing, indentation and error parsing. I have a set up that nearly does this.
+
+- There is a very subtle bug in <a href="http://www.vim.org/scripts/script.php?script_id=2325">this script</a> related to how it finds filenames. See <a href="https://gist.github.com/texasflood/b330df17f74c90e2b5da#file-latexerrorfilterbug-L44">this line</a> of the pdftex error output. The `(...` is interpreted as though the filename is `..` because the standard format for the filename is `(./fileName`. I would fix it but I'm not too familiar with gawk.
 
 - The auto indent paste hack sometimes chops off the first few characters sometimes. This is the hack, put this in your `.vimrc`:
 
@@ -20,6 +22,8 @@ endfunction
 let &t_SI .= "\<Esc>[?2004h"
 let &t_EI .= "\<Esc>[?2004l"
 {% endhighlight %}
+
+And now you will never need to type `:set paste` when pasting a large body of code again. It's almost voodoo.
 
 - Ability to use the repeat number feature for both inline operations and multiline operations. E.g. typing `2>>` indents two lines by one indent to the left. There should be an option like `-2>>` to indent one line twice.
 
