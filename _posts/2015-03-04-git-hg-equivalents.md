@@ -19,14 +19,14 @@ This is a list I will add to as time goes by:
   <tbody>
     <centering>
     <tr>
-      <td>git clean -fd</td>
-      <td>hg purge</td>
+      <td><code>git clean -fd</code></td>
+      <td><code>hg purge</code></td>
       <td>Deletes all newly added untracked file and directories</td>
     </tr>
     <tr>
-      <td>git add .<br>
-          git ls-files -deleted | xargs git rm</td>
-      <td>hg addremove</td>
+      <td><code>git add .</code><br>
+          <code>git ls-files --deleted | xargs git rm</code></td>
+      <td><code>hg addremove</code></td>
       <td>Adds all untracked files and removes all missing files</td>
     </tr>
     </centering>

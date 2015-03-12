@@ -6,7 +6,7 @@ These are things I think Vim needs improving on. Maybe I'll fix them some day.
 
 - Faster regex matching
 
-- A latex IDE that is minimal (doesn't clutter your maps) but provides solid functionality for compiling, viewing, indentation and error parsing. I have a set up that nearly does this. But there is a very subtle bug in <a href="http://www.vim.org/scripts/script.php?script_id=2325"></a> related to how it finds filenames. Need to remember what this is and fix it.
+- A latex IDE that is minimal (doesn't clutter your maps) but provides solid functionality for compiling, viewing, indentation and error parsing. I have a set up that nearly does this. But there is a very subtle bug in <a href="http://www.vim.org/scripts/script.php?script_id=2325">this script</a> related to how it finds filenames. Need to remember what this is and fix it.
 
 - The auto indent paste hack sometimes chops off the first few characters sometimes. This is the hack, put this in your `.vimrc`:
 
@@ -121,8 +121,11 @@ let &t_EI .= "\<Esc>[?2004l"
     <td>-</td>
   </tr>
 </table>
-<a href="vimcasts.org/blog/2013/11/registers-the-good-the-bad-and-the-ugly-parts/"></a>
+
+Taken from <a href="http://vimcasts.org/blog/2013/11/registers-the-good-the-bad-and-the-ugly-parts/">this</a> website
 
 - Good method to prevent breaking of chain for a normal mode map when instruction fails
 
 - Option to have non literal remaps, e.g. if we have `nnoremap -o 4o`, then if you type `2-o`, you get 24 new lines, when you might have expected eight.
+
+- Fixing all the small waits due to maps, e.g. pressing `Esc` in visual mode
