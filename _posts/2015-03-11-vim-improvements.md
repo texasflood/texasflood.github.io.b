@@ -23,7 +23,7 @@ let &t_EI .= "\<Esc>[?2004l"
 
 - Ability to use the repeat number feature for both inline operations and multiline operations. E.g. typing `2>>` indents two lines by one indent to the left. There should be an option like `-2>>` to indent one line twice.
 
-- Case insensitivity for filename completion, e.g. `:e filename`.
+- Case insensitivity for filename completion when using `:e filename`. Better filename tab completion, e.g. don't complete to buffers that are already open. Maybe even add an option to not autocomplete files with `.swp` or `.swo` files as they are probably open elsewhere
 
 - Not requiring a space prepending a string which you want to filename complete (`^X^F`)
 
@@ -34,3 +34,5 @@ let &t_EI .= "\<Esc>[?2004l"
 - When opening giant files, the numbering pane on the left is set to the maximum size of the largest line no. This could be made be more efficient.
 
 - Create a plugin that adds shortcuts for mathematical manipulations more easily. E.g. `Ctrl-A` adds to the next number (unless a minus sign precedes it). More shortcuts could be added to subtract and add regardless of a preceding minus sign. Also, float support would be good, but complex.
+
+- Changing colorschemes is not smooth. E.g. make default `badwolf`, change to `koehler` and then change back to `badwolf`. Then visual mode retains the appearance of `koehler`.
