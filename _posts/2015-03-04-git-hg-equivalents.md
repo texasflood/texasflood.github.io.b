@@ -24,7 +24,7 @@ This is a list I will add to as time goes by:
       <td>Deletes all newly added untracked file and directories</td>
     </tr>
     <tr>
-      <td><code>git add .</code><br>
+      <td><code>git add :/</code><br>
           <code>git ls-files --deleted | xargs git rm</code></td>
       <td><code>hg addremove</code></td>
       <td>Adds all untracked files and removes all missing files</td>
