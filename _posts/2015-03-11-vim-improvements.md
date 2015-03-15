@@ -135,3 +135,5 @@ Taken from <a href="http://vimcasts.org/blog/2013/11/registers-the-good-the-bad-
 - Fixing all the small waits due to maps, e.g. pressing `Esc` in visual mode
 
 - Using the up/down arrows in insert mode to move across lines does not preserve column position when passing across the end of a line
+
+- Sometimes the position of the status bar is too high, but is corrected when you try and scroll
