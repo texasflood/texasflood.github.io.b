@@ -2,7 +2,13 @@
 <html lang="en-us">
 
   <script type="text/x-mathjax-config">
-MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  MathJax.Hub.Config({
+    showProcessingMessages: false,
+    jax: ["input/TeX", "output/SVG"],
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']]
+    }
+  });
   </script>
   <script type="text/javascript"
           src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
