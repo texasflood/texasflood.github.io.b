@@ -27,6 +27,8 @@ And now you will never need to type `:set paste` when pasting a large body of co
 
 - Ability to use the repeat number feature for both inline operations and multiline operations. E.g. typing `2>>` indents two lines by one indent to the left. There should be an option like `-2>>` to indent one line twice.
 
+- Undo diff (undojoin?)
+
 - Case insensitivity for filename completion when using `:e filename`. Better filename tab completion, e.g. don't complete to buffers that are already open. Maybe even add an option to not autocomplete files with `.swp` or `.swo` files as they are probably open elsewhere
 
 - Not requiring a space prepending a string which you want to filename complete (`^X^F`)
