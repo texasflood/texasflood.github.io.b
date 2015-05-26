@@ -141,3 +141,5 @@ Taken from <a href="http://vimcasts.org/blog/2013/11/registers-the-good-the-bad-
 - Sometimes the position of the status bar is too high, but is corrected when you try and scroll
 
 - <C-p> and <C-n> completion in the command line bar - especially for search and replace!
+
+- Show all spelling errors in document in one list so one can quickly see which ones are actual errors. Also a good error detection scheme for .tex files
