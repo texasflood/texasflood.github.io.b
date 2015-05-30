@@ -37,6 +37,8 @@ And now you will never need to type `:set paste` when pasting a large body of co
 
 - The repeat operation applied to `J` in normal mode applies one less repeat than I expect
 
+- Have a way of storing previous commands, so `.` can be modified so older commands can be called
+
 - When opening giant files, the numbering pane on the left is set to the maximum size of the largest line no. This could be made be more efficient.
 
 - Create a plugin that adds shortcuts for mathematical manipulations more easily. E.g. `Ctrl-A` adds to the next number (unless a minus sign precedes it). More shortcuts could be added to subtract and add regardless of a preceding minus sign. Also, float support would be good, but complex.
@@ -142,4 +144,4 @@ Taken from <a href="http://vimcasts.org/blog/2013/11/registers-the-good-the-bad-
 
 - <C-p> and <C-n> completion in the command line bar - especially for search and replace!
 
-- Show all spelling errors in document in one list so one can quickly see which ones are actual errors. Also a good error detection scheme for .tex files
+- Show all spelling errors in document in one list so one can quickly see which ones are actual errors (Edit: this has been done - http://www.vim.org/scripts/script.php?script_id=3844. Also need to install http://www.vim.org/scripts/script.php?script_id=4433 for this to work). Also a good error detection scheme for .tex files
