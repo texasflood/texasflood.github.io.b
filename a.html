@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang"en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bill Split</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="addRow.js"></script>
+  </head>
+  <body>
+    <table id="tabledata">
+      <thead>
+        <th>Select</th>
+        <th>Border Location Name</th>
+        <th>Cable Location</th>
+        <th>Direction of Vault Wall</th>
+        <th>Cable Type</th>
+        <th>Cable Size (pairs)</th>
+        <th>Cable Gauge</th>
+        <th>Vertical(s) appeared on Verticals</th>
+        <th>Approximate Number of Jumpers</th>
+        <th>Are Protectors Still In?</th>
+        <th>Metered Distance</th>
+        <th class="comments">Central Office Comments</th>
+      </thead>
+      <tbody id="input"></tbody>
+      <tbody id="template">
+        <tr>
+          <td>
+            <input name="selected" type="checkbox" />
+          </td>
+          <td>
+            <input name="border_location" type="text" />
+          </td>
+          <td>
+            <input name="cable_location" type="text" />
+          </td>
+          <td>
+            <input name="vault_direction" type="text" />
+          </td>
+          <td>
+            <input name="cable_type" type="text" />
+          </td>
+          <td>
+            <input name="cable_size" type="text" />
+          </td>
+          <td>
+            <input name="cable_gauge" type="text" />
+          </td>
+          <td>
+            <input name="vertical" type="text" />
+          </td>
+          <td>
+            <input name="jumpers" type="text" />
+          </td>
+          <td>
+            <input name="protectors" type="text" />
+          </td>
+          <td>
+            <input name="metered_dist" type="text" />
+          </td>
+          <td>
+            <input name="comments" type="text" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="ActionAddRow">Add Row</button>
+    <button id="ActionSubmit">Submit</button>
+  </body>
+</html>
