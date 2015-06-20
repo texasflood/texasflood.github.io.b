@@ -4,7 +4,7 @@ title: Git tips
 ---
 Tips for myself for git
 
-![Git transport model]({{ site.url }}/assets/git-transport.png){: .center-image }
+![Git transport model]({{ site.url }}/assets/git-transport.png)
 
 - `git checkout <rev> -- <file>`, leave `<rev>` empty if you want to update to the current index, or use `HEAD` to update to the local repository
 
