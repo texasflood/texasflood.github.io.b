@@ -27,7 +27,7 @@ index 0000000..3d44acd
 
 - Notice the `0000000..3d44acd` is not the commit hash, but the file hash
 
-- `git push --all origin` pushes a new branch
+- `git push --all origin` pushes a new branch (don't necessarily need origin - only if you have multiple upstreams)
 
 - `git push --set-upstream origin thirdbranch` pushes the current branch and sets the remote as the upstream remote repository
 
