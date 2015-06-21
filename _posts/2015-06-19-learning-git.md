@@ -74,13 +74,13 @@ git rebase master
 
 At this point, the history looks like
 
-{% highlight %}
+{% highlight bash %}
 * cc2bfa3 (HEAD, feature) Started developing a new feature
 * b000ff1 (master) Fixed bug
 {% endhighlight %}
 
 Now, we have to do a fast forward merge (this is an easy merge, it's just moving the branch head location forward a few commits)
-{% highlight %}
+{% highlight bash %}
 git checkout master
 git merge feature # Deal with potential merge conflicts in the standard way
 git branch -d feature
