@@ -86,10 +86,15 @@ Now, we have to do a fast forward merge (this is an easy merge, it's just moving
 {% highlight %}
 git checkout master
 git merge feature
+# Deal with potential merge conflicts in the standard way
 git branch -d feature
 {% endhighlight %}
 
-And we have fully integrated
+And we have fully integrated the feature into the main branch.
+
+### git rebase -i
+Still need to cover this
+
 ## git reset
 
 - `git reset` unstages all files, allowing you to recreate the commit snapshot from scratch, but it leaves the working directory unchanged. Adding `--hard` destroys all changes in the working directory, so there are no differences to be unstaged. It resets the working directory to the original commit
