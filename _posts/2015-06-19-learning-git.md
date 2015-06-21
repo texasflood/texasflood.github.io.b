@@ -26,3 +26,9 @@ index 0000000..3d44acd
 {% endhighlight %}
 
 - Notice the `0000000..3d44acd` is not the commit hash, but the file hash
+
+- `git push --all origin` pushes a new branch
+
+- `git push --set-upstream origin thirdbranch` pushes the current branch and sets the remote as the upstream remote repository
+
+- `git log --graph --decorate --oneline $(git rev-list -g --all)` shows all the branches, including unnamed ones and stashes
