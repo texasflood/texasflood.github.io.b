@@ -56,12 +56,9 @@ index 0000000..3d44acd
 The standard workflow is as follows - we start with `HEAD` on the `master` branch tip. Then:
 
 {% highlight bash %}
-git checkout -b feature master # create a branch at the same point as the master branch
-# add feature
-git commit -am "Started developing a new feature"
-# go back to master to make an important change - do this in another branch
-git checkout -b quickfix master
-# fix critical bug
+git checkout -b feature master # create a branch at the same point as the master branch # add feature
+git commit -am "Started developing a new feature" # go back to master to make an important change - do this in another branch
+git checkout -b quickfix master # fix critical bug
 git commit -am "Fixed bug"
 git checkout master
 git merge quickfix
@@ -85,8 +82,7 @@ At this point, the history looks like
 Now, we have to do a fast forward merge (this is an easy merge, it's just moving the branch head location forward a few commits)
 {% highlight %}
 git checkout master
-git merge feature
-# Deal with potential merge conflicts in the standard way
+git merge feature # Deal with potential merge conflicts in the standard way
 git branch -d feature
 {% endhighlight %}
 
