@@ -56,9 +56,12 @@ index 0000000..3d44acd
 The standard workflow is as follows - we start with `HEAD` on the `master` branch tip. Then:
 
 {% highlight bash %}
-git checkout -b feature master # create a branch at the same point as the master branch # add feature
-git commit -am "Started developing a new feature" # go back to master to make an important change - do this in another branch
-git checkout -b quickfix master # fix critical bug
+git checkout -b feature master # create a branch at the same point as the master branch 
+# add feature
+git commit -am "Started developing a new feature" 
+# go back to master to make an important change - do this in another branch
+git checkout -b quickfix master 
+# fix critical bug
 git commit -am "Fixed bug"
 git checkout master
 git merge quickfix
