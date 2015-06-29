@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.24)  29 JUN 2015 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.24)  29 JUN 2015 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**3F2.tex
-(./3F2.tex
+**combAndPerms.tex
+(./combAndPerms.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -683,40 +683,13 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count343
-\Gm@cntv=\count344
-\c@Gm@tempcnt=\count345
-\Gm@bindingoffset=\dimen161
-\Gm@wd@mp=\dimen162
-\Gm@odd@mp=\dimen163
-\Gm@even@mp=\dimen164
-\Gm@layoutwidth=\dimen165
-\Gm@layoutheight=\dimen166
-\Gm@layouthoffset=\dimen167
-\Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks26
-)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen169
-\pgfutil@tempdimb=\dimen170
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -735,30 +708,30 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen171
-\pgf@y=\dimen172
-\pgf@xa=\dimen173
-\pgf@ya=\dimen174
-\pgf@xb=\dimen175
-\pgf@yb=\dimen176
-\pgf@xc=\dimen177
-\pgf@yc=\dimen178
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count346
-\c@pgf@countb=\count347
-\c@pgf@countc=\count348
-\c@pgf@countd=\count349
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
+\c@pgf@counta=\count343
+\c@pgf@countb=\count344
+\c@pgf@countc=\count345
+\c@pgf@countd=\count346
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -774,8 +747,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count350
-\pgfsyssoftpath@bigbuffer@items=\count351
+\pgfsyssoftpath@smallbuffer@items=\count347
+\pgfsyssoftpath@bigbuffer@items=\count348
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -804,12 +777,12 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen179
-\pgfmath@count=\count352
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count349
 \pgfmath@box=\box57
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -829,37 +802,37 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count353
+\c@pgfmathroundto@lastzeros=\count350
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen180
-\pgf@picmaxx=\dimen181
-\pgf@picminy=\dimen182
-\pgf@picmaxy=\dimen183
-\pgf@pathminx=\dimen184
-\pgf@pathmaxx=\dimen185
-\pgf@pathminy=\dimen186
-\pgf@pathmaxy=\dimen187
-\pgf@xx=\dimen188
-\pgf@xy=\dimen189
-\pgf@yx=\dimen190
-\pgf@yy=\dimen191
-\pgf@zx=\dimen192
-\pgf@zy=\dimen193
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen194
-\pgf@path@lasty=\dimen195
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen196
-\pgf@shorten@start@additional=\dimen197
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -867,19 +840,19 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count354
+\pgf@picture@serial@count=\count351
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen198
+\pgflinewidth=\dimen190
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen199
-\pgf@pt@y=\dimen200
-\pgf@pt@temp=\dimen201
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -895,13 +868,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-Normal \dimen register pool exhausted, switching to extended pool.
-\pgfarrowsep=\dimen256
+\pgfarrowsep=\dimen194
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen257
-\pgf@sys@shading@range@num=\count355
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count352
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -932,8 +904,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen258
-\pgf@nodesepend=\dimen259
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -947,10 +919,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen260
-\pgffor@skip=\dimen261
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
@@ -958,122 +930,40 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count356
-\pgfplotmarksize=\dimen262
+\pgf@plot@mark@count=\count353
+\pgfplotmarksize=\dimen200
 )
-\tikz@lastx=\dimen263
-\tikz@lasty=\dimen264
-\tikz@lastxsaved=\dimen265
-\tikz@lastysaved=\dimen266
-\tikzleveldistance=\dimen267
-\tikzsiblingdistance=\dimen268
+\tikz@lastx=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikzleveldistance=\dimen259
+\tikzsiblingdistance=\dimen260
 \tikz@figbox=\box63
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count357
-\tikznumberofchildren=\count358
-\tikznumberofcurrentchild=\count359
-\tikz@fig@count=\count360
+\tikztreelevel=\count354
+\tikznumberofchildren=\count355
+\tikznumberofcurrentchild=\count356
+\tikz@fig@count=\count357
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count361
-\pgfmatrixcurrentcolumn=\count362
-\pgf@matrix@numberofcolumns=\count363
+\pgfmatrixcurrentrow=\count358
+\pgfmatrixcurrentcolumn=\count359
+\pgf@matrix@numberofcolumns=\count360
 )
-\tikz@expandcount=\count364
+\tikz@expandcount=\count361
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.callouts.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.callouts.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box67
-\pgfnodeparttwobox=\box68
-\pgfnodepartthreebox=\box69
-\pgfnodepartfourbox=\box70
-\pgfnodeparttwentybox=\box71
-\pgfnodepartnineteenbox=\box72
-\pgfnodeparteighteenbox=\box73
-\pgfnodepartseventeenbox=\box74
-\pgfnodepartsixteenbox=\box75
-\pgfnodepartfifteenbox=\box76
-\pgfnodepartfourteenbox=\box77
-\pgfnodepartthirteenbox=\box78
-\pgfnodeparttwelvebox=\box79
-\pgfnodepartelevenbox=\box80
-\pgfnodeparttenbox=\box81
-\pgfnodepartninebox=\box82
-\pgfnodeparteightbox=\box83
-\pgfnodepartsevenbox=\box84
-\pgfnodepartsixbox=\box85
-\pgfnodepartfivebox=\box86
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
-\arrowsize=\dimen269
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1099,9 +989,11 @@ Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -1130,20 +1022,23 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen270
-\Hy@linkcounter=\count365
-\Hy@pagecounter=\count366
+\@linkdim=\dimen261
+\Hy@linkcounter=\count362
+\Hy@pagecounter=\count363
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count367
+\Hy@SavedSpaceFactor=\count364
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1155,12 +1050,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count368
+\c@Hy@tempcnt=\count365
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen271
-\Fld@menulength=\count369
-\Field@Width=\dimen272
-\Fld@charsize=\dimen273
+\XeTeXLinkMargin=\dimen262
+\Fld@menulength=\count366
+\Field@Width=\dimen263
+\Fld@charsize=\dimen264
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1170,17 +1065,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count370
-\c@Item=\count371
-\c@Hfootnote=\count372
+\Hy@abspage=\count367
+\c@Item=\count368
+\c@Hfootnote=\count369
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count373
-\c@bookmark@seq@number=\count374
+\Fld@listcount=\count370
+\c@bookmark@seq@number=\count371
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1189,6 +1084,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen265
+\pgfdecoratedremainingdistance=\dimen266
+\pgfdecoratedinputsegmentcompleteddistance=\dimen267
+\pgfdecoratedinputsegmentremainingdistance=\dimen268
+\pgf@decorate@distancetomove=\dimen269
+\pgf@decorate@repeatstate=\count372
+\pgfdecorationsegmentamplitude=\dimen270
+\pgfdecorationsegmentlength=\dimen271
+)
+\tikz@lib@dec@box=\box67
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2230.
@@ -1205,15 +1123,15 @@ LaTeX Info: Redefining \labelcpageref on input line 2230.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box87
+\ttl@box=\box68
 \beforetitleunit=\skip73
 \aftertitleunit=\skip74
-\ttl@plus=\dimen274
-\ttl@minus=\dimen275
-\ttl@toksa=\toks39
-\titlewidth=\dimen276
-\titlewidthlast=\dimen277
-\titlewidthfirst=\dimen278
+\ttl@plus=\dimen272
+\ttl@minus=\dimen273
+\ttl@toksa=\toks38
+\titlewidth=\dimen274
+\titlewidthlast=\dimen275
+\titlewidthfirst=\dimen276
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1221,40 +1139,38 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count375
-\@quotereset=\count376
- (./3F2.aux)
-\openout1 = `3F2.aux'.
+\@quotelevel=\count373
+\@quotereset=\count374
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+(./combAndPerms.aux)
+\openout1 = `combAndPerms.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ascii'.
-
-
-Package biblatex Warning: File '3F2-blx.bib' created by wrong version.
-
-\openout3 = `3F2-blx.bib'.
+\openout3 = `combAndPerms-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '3F2.bbl' not found.
-No file 3F2.bbl.
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+Package biblatex Info: ... file 'combAndPerms.bbl' not found.
+
+No file combAndPerms.bbl.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1263,7 +1179,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2014/10/01 v2.6c siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 25.
+LaTeX Info: Redefining \microtypecontext on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1280,17 +1196,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count377
-\scratchdimen=\dimen279
-\scratchbox=\box88
-\nofMPsegments=\count378
-\nofMParguments=\count379
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count380
-\MPscratchDim=\dimen280
-\MPnumerator=\count381
-\makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count375
+\scratchdimen=\dimen277
+\scratchbox=\box69
+\nofMPsegments=\count376
+\nofMParguments=\count377
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count378
+\MPscratchDim=\dimen278
+\MPnumerator=\count379
+\makeMPintoPDFobject=\count380
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1306,43 +1222,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring OFF on input line 25.
+\AtBeginShipoutBox=\box70
+Package hyperref Info: Link coloring OFF on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1350,18 +1232,18 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count383
+\c@section@level=\count381
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
-(./3F2.out) (./3F2.out)
+(./combAndPerms.out) (./combAndPerms.out)
 \@outlinefile=\write5
-\openout5 = `3F2.out'.
+\openout5 = `combAndPerms.out'.
 
-\c__siunitx_mathsf_int=\count384
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+\c__siunitx_mathsf_int=\count382
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1369,7 +1251,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1381,63 +1263,54 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count385
+\c__siunitx_mathtt_int=\count383
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./3F2.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./combAndPerms.toc)
 \tf@toc=\write6
-\openout6 = `3F2.toc'.
+\openout6 = `combAndPerms.toc'.
 
  [2
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
- [3
+] [3
 
 ] [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
- (./3F2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
-Package rerunfilecheck Info: File `3F2.out' has not changed.
-(rerunfilecheck)             Checksum: EEE235F05DC000CB2AAFE641FD09CDFB;476.
-Package logreq Info: Writing requests to '3F2.run.xml'.
-\openout1 = `3F2.run.xml'.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+
+(./combAndPerms.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package rerunfilecheck Info: File `combAndPerms.out' has not changed.
+(rerunfilecheck)             Checksum: 30C74BB7F0DF3C722BCC976906E2F090;291.
+Package logreq Info: Writing requests to 'combAndPerms.run.xml'.
+\openout1 = `combAndPerms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35035 strings out of 493105
- 713258 string characters out of 6137072
- 879204 words of memory out of 5000000
- 37967 multiletter control sequences out of 15000+600000
+ 32712 strings out of 493105
+ 655684 string characters out of 6137072
+ 785522 words of memory out of 5000000
+ 35696 multiletter control sequences out of 15000+600000
  20991 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,67p,10392b,728s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,65p,10401b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb>
-Output written on 3F2.pdf (4 pages, 81528 bytes).
+fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on combAndPerms.pdf (4 pages, 63430 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 23109 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 23093 words of extra memory for PDF output out of 24883 (max. 10000000)
 

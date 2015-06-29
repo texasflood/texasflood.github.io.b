@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{siunitx}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{parskip}
+\usepackage{longtable}
+\usepackage{enumerate}
+\graphicspath{}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usepackage{cleveref}
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+\title{Combinations and Permutations}
+\date{\today}
+\author{Anas Syed}
+\tikzstyle{level 1}=[level distance=3.5cm, sibling distance=2.5cm]
+\tikzstyle{level 2}=[level distance=3.5cm, sibling distance=2cm]
+\tikzstyle{bag} = [text width=4em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Introduction}
+Define the set $A$ where $|A|=n$. Obviously, every element is unique, by the definition of a set.
+\section{Permutations}
+Order matters.
+\subsection{With repetition}
+\subsubsection{Problem}
+Work out how many ways there are of choosing $r$ elements from $A$, and we can choose the same element multiple times.
+
+\subsubsection{Solution}
+The first time we choose an element, we have $n$ choices. It is the same for all $r$ choices we make. The first choice adds $n$ possible choices. Then for 
+
+%The situation can be seen from \Cref{fig:tree}. The answer to the problem is the number of branches in this tree. If each choice creates $n$ branches, 
+
+%\begin{figure}[H]
+  %\centering
+  %\begin{tikzpicture}[grow=right]
+    %\centering
+    %\node[bag] {First choice}
+    %child {
+      %node[bag] {Second choice}        
+      %child {
+        %edge from parent
+        %node[above] {$\vdots$}
+      %}
+      %child {
+        %edge from parent
+        %node[below] {$\vdots$}
+      %}
+      %edge from parent 
+      %node[above] {$\vdots$}
+    %}
+    %child {
+      %node[bag] {Second choice}        
+      %child {
+        %edge from parent
+        %node[above] {$\vdots$}
+      %}
+      %child {
+        %edge from parent
+        %node[below] {$\vdots$}
+      %}
+      %edge from parent 
+      %node[below] {$\vdots$}
+    %};
+  %\end{tikzpicture}
+  %\caption{Tree diagram showing choices}
+  %\label{fig:tree}
+%\end{figure}
+
+\end{document}
