@@ -1,4 +1,8 @@
 \documentclass[a4paper,12pt]{article}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proof}{Proof}
 \usepackage[backend=bibtex]{biblatex}
 \usepackage{siunitx}
 \usepackage{microtype}
@@ -14,70 +18,70 @@
 \usetikzlibrary{trees}
 \usepackage{amssymb}
 \usepackage{hyperref}
-\usetikzlibrary{decorations.pathmorphing}
-\usetikzlibrary{decorations.markings}
 \usepackage{cleveref}
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
 \title{Combinations and Permutations}
 \date{\today}
 \author{Anas Syed}
-\tikzstyle{level 1}=[level distance=3.5cm, sibling distance=2.5cm]
-\tikzstyle{level 2}=[level distance=3.5cm, sibling distance=2cm]
-\tikzstyle{bag} = [text width=4em, text centered]
-\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
-
 \begin{document}
 \maketitle
 \tableofcontents
 \newpage
 \section{Introduction}
 Define the set $A$ where $|A|=n$. Obviously, every element is unique, by the definition of a set.
+
+\subsection{Product rule of counting}
+We will assume the product rule of counting.
+\begin{theorem}
+  Say we have a collection of $r$ sets, $A_1$, $A_2$, to $A_r$ with respective cardinalities of $n_1$, $n_2$, to $n_r$. Suppose we have to successively choose an element from each set in order. A particular sequence of items chosen from the $r$ sets is a \emph{composite outcome}. The number of distinct composite items, where order matters, is
+  \begin{equation}
+    \prod_{i=1}^r n_i
+  \end{equation}
+  \label{thm:productRule}
+\end{theorem}
+
 \section{Permutations}
 Order matters.
 \subsection{With repetition}
+\label{subsec:permWithRep}
 \subsubsection{Problem}
 Work out how many ways there are of choosing $r$ elements from $A$, and we can choose the same element multiple times.
 
 \subsubsection{Solution}
-The first time we choose an element, we have $n$ choices. It is the same for all $r$ choices we make. The first choice adds $n$ possible choices. Then for 
+The first time we choose an element, we have $n$ choices. It is the same for all $r$ choices we make. By \cref{thm:productRule}, the total number of outcomes is $n^r$.
 
-%The situation can be seen from \Cref{fig:tree}. The answer to the problem is the number of branches in this tree. If each choice creates $n$ branches, 
+\subsection{Without repetition}
+\subsubsection{Problem}
+Work out how many ways there are of choosing $r$ elements from $A$, and we cannot choose the same element twice.
 
-%\begin{figure}[H]
-  %\centering
-  %\begin{tikzpicture}[grow=right]
-    %\centering
-    %\node[bag] {First choice}
-    %child {
-      %node[bag] {Second choice}        
-      %child {
-        %edge from parent
-        %node[above] {$\vdots$}
-      %}
-      %child {
-        %edge from parent
-        %node[below] {$\vdots$}
-      %}
-      %edge from parent 
-      %node[above] {$\vdots$}
-    %}
-    %child {
-      %node[bag] {Second choice}        
-      %child {
-        %edge from parent
-        %node[above] {$\vdots$}
-      %}
-      %child {
-        %edge from parent
-        %node[below] {$\vdots$}
-      %}
-      %edge from parent 
-      %node[below] {$\vdots$}
-    %};
-  %\end{tikzpicture}
-  %\caption{Tree diagram showing choices}
-  %\label{fig:tree}
-%\end{figure}
+\subsubsection{Solution}
+At the first step, we will have $n$ choices. At the successive step, if it exists, we will have $n-1$ choices. This continues until there are $n-r+1$ choices. By \cref{thm:productRule}, the answer is
+
+\begin{equation}
+   n \times (n-1) \times \ldots \times (n-r+1) = \frac{n!}{(n-r)!}
+\end{equation}
+
+\section{Combinations}
+Order doesn't matter.
+\subsection{Without repetition}
+\subsubsection{Problem}
+Say we can create sets by choosing $r$ elements from $A$, and we cannot choose the same element twice. Work out how many distinct sets can be created in this way.
+
+\subsubsection{Solution}
+The set of the distinct sets (call this $B$) that can be created in this way is a subset of the distinct sequences that can be created in \cref{subsec:permWithRep} because order doesn't matter.
+
+The number of ways of organising $r$ items is $r!$, by \cref{thm:productRule}. Therefore, there are $r!$ different sequences in the problem in \cref{subsec:permWithRep} for every unordered sequence in $B$. This means that
+\begin{equation}
+  |B| = \frac{n!}{(n-r)!} \times \frac{1}{r!}
+\end{equation}
+
+\subsection{With repetition}
+\subsubsection{Problem}
+Work out how many ways there are of choosing $r$ elements from $A$, but we cannot choose the same element multiple times. The order of the sequence does not matter.
+
+\subsubsection{Solution}
+The first time we choose an element, we have $n$ choices. It is the same for all $r$ choices we make. By \cref{thm:productRule}, the total number of outcomes is $n^r$.
+
 
 \end{document}
