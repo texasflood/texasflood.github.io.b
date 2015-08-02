@@ -1,14 +1,24 @@
 <!DOCTYPE HTML>
 <html>
-<body>
+<head>
+<title>(Type a title for your page here)</title>
+<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
 
-  <p>Header...</p>
+function display_ct() {
+var strcount
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+tt=display_c();
+}
+</script>
+</head>
 
-  <script>
-    alert('Hello, World!')
-  </script>
-
-  <p>...Footer</p>
+<body onload=display_ct();>
+<span id='ct' ></span>
 
 </body>
 </html>
