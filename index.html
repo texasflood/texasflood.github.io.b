@@ -1,24 +1,54 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>(Type a title for your page here)</title>
-<script type="text/javascript"> 
+  <head>
+    <style>
+body {background-color:lightgrey}
+p    {color:black;font-size:250%}
+.bottom-three {
+  margin-top: 3cm;
+}
+    </style>
+    <title>Time left</title>
+    <script type="text/javascript"> 
+function display_r(){
+  var refresh=1000; // Refresh rate in milli seconds
+  mytime=setTimeout('display_rt()',refresh)
+}
+
+function display_rt() {
+  var strcount;
+  var start =  new Date("24 Jul 2015 14:15:00 +0100");
+  var end =  new Date("26 Aug 2015 18:40:00 +0100");
+  var x = new Date().getTime();
+  var fracLeft = 100*(x-start)/(end-start);
+  document.getElementById('rt').innerHTML = (String(fracLeft).substring(0,7) + " %").fontsize(33);
+  et=display_r();
+}
+
 function display_c(){
-var refresh=1000; // Refresh rate in milli seconds
-mytime=setTimeout('display_ct()',refresh)
+  var refresh=1000; // Refresh rate in milli seconds
+  mytime=setTimeout('display_ct()',refresh)
 }
 
 function display_ct() {
-var strcount
-var x = new Date()
-document.getElementById('ct').innerHTML = x;
-tt=display_c();
+  var strcount;
+  var start =  new Date("24 Jul 2015 14:15:00 +0100");
+  var end =  new Date("26 Aug 2015 18:40:00 +0100");
+  var x = new Date().getTime();
+  var fracLeft = 100*(x-start)/(end-start);
+  document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,8) + " %").fontsize(33);
+  tt=display_c();
 }
-</script>
-</head>
+    </script>
+  </head>
 
-<body onload=display_ct();>
-<span id='ct' ></span>
+  <body onload=display_ct(); align="center">
+    <p class="bottom-three"
+    <font>Percentage completed:
+    </font>
 
-</body>
+    </p>
+    <span id='ct' ></span>
+
+  </body>
 </html>
