@@ -26,22 +26,39 @@ function display_ct() {
   var timeLeftMinutes = timeLeftSeconds/60;
   var timeLeftHours = timeLeftMinutes/60;
   var timeLeftDays = timeLeftHours/24;
-  timeLeftDays = Math.floor(timeLeftDays);
-  timeLeftHours = Math.floor(timeLeftHours % 24);
-  timeLeftSeconds = Math.floor(timeLeftSeconds % 60);
-  timeLeftMinutes = Math.floor(timeLeftMinutes % 60);
-  if (timeLeftHours >= 0 && timeLeftHours < 10) {
+  if (timeLeftMilli >= 0) {
+    timeLeftDays = String(Math.floor(timeLeftDays));
+    timeLeftHours = Math.floor(timeLeftHours % 24);
+    timeLeftSeconds = Math.floor(timeLeftSeconds % 60);
+    timeLeftMinutes = Math.floor(timeLeftMinutes % 60);
+  } else {
+    timeLeftDays = String(Math.ceil(timeLeftDays));
+    timeLeftHours = Math.ceil(timeLeftHours % 24);
+    timeLeftSeconds = Math.ceil(timeLeftSeconds % 60);
+    timeLeftMinutes = Math.ceil(timeLeftMinutes % 60);
+  }
+  if (timeLeftMilli >= 0 && timeLeftHours < 10) {
     timeLeftHours = '0' + String(timeLeftHours);
-  } else if (timeLeftHours < 0 && timeLeftHours > -10) {
+  } else if (timeLeftMilli < 0 && timeLeftHours > -10) {
     timeLeftHours = '-0' + String(Math.abs(timeLeftHours));
+  } else {
+    timeLeftHours = String(timeLeftHours);
   }
   if (Math.abs(timeLeftMinutes) < 10) {
     timeLeftMinutes = '0' + String(Math.abs(timeLeftMinutes));
+  } else {
+    timeLeftMinutes = String(Math.abs(timeLeftMinutes));
   }
   if (Math.abs(timeLeftSeconds) < 10) {
     timeLeftSeconds = '0' + String(Math.abs(timeLeftSeconds));
+  } else {
+    timeLeftSeconds = String(Math.abs(timeLeftSeconds));
   }
-  document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,8) + " %").fontsize(33);
+  var lengthToShow = Math.floor(Math.log(Math.abs(fracLeft))/Math.LN10) + 7;
+  if (x < start) {
+    lengthToShow = lengthToShow + 1;
+  }
+  document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,lengthToShow) + " %").fontsize(33);
   document.getElementById('currentTime').innerHTML = (Date()).fontsize(33);
   document.getElementById('rt').innerHTML = (timeLeftDays + ' Days, ' + timeLeftHours + ':' + timeLeftMinutes + ':' + timeLeftSeconds).fontsize(33);
   tt=display_c();
