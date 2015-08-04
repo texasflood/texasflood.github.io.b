@@ -3,26 +3,21 @@
   <head>
     <style>
 body {background-color:lightgrey}
-p    {color:black;font-size:250%}
+p    {color:black;font-size:300%}
 .bottom-three {
   margin-top: 2cm;
 }
     </style>
-    <title>Time left</title>
+    <title>Time</title>
+    <script type="text/javascript", src="moment.min.js"></script>
     <script type="text/javascript"> 
 function display_c(){
   var refresh=1000; // Refresh rate in milli seconds
   mytime=setTimeout('display_ct()',refresh)
 }
 
-function display_ct() {
-  var strcount;
-  var start =  new Date("24 Jul 2015 14:15:00 +0100");
-  var end =  new Date("26 Aug 2015 18:40:00 +0100");
-  var x = new Date().getTime();
-  var fracLeft = 100*(x-start)/(end-start);
-  var timeLeftMilli = end - x;
-  var timeLeftSeconds = (end - x)/1000;
+function formatTime(timeLeftMilli) {
+  var timeLeftSeconds = timeLeftMilli/1000;
   var timeLeftMinutes = timeLeftSeconds/60;
   var timeLeftHours = timeLeftMinutes/60;
   var timeLeftDays = timeLeftHours/24;
@@ -54,26 +49,56 @@ function display_ct() {
   } else {
     timeLeftSeconds = String(Math.abs(timeLeftSeconds));
   }
+  return (timeLeftDays + ' Days, ' + timeLeftHours + ':' + timeLeftMinutes + ':' + timeLeftSeconds);
+}
+
+function display_ct() {
+  var strcount;
+  var start =  new Date('24 Jul 2015 14:15:00 +0100');
+  var end =  new Date('26 Aug 2015 18:40:00 +0100');
+  var x = new Date().getTime();
+  var fracLeft = 100*(x-start)/(end-start);
   var lengthToShow = Math.floor(Math.log(Math.abs(fracLeft))/Math.LN10) + 7;
   if (x < start) {
     lengthToShow = lengthToShow + 1;
   }
-  document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,lengthToShow) + " %").fontsize(33);
-  document.getElementById('currentTime').innerHTML = (Date()).fontsize(33);
-  document.getElementById('rt').innerHTML = (timeLeftDays + ' Days, ' + timeLeftHours + ':' + timeLeftMinutes + ':' + timeLeftSeconds).fontsize(33);
+  timeLeftString = formatTime(end - x);
+  timePassedString = formatTime(x - start);
+  document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,lengthToShow) + ' %').fontsize(33);
+  document.getElementById('currentTime').innerHTML = (moment().format('Do MMM YYYY, HH:mm:ss ZZ')).fontsize(33);
+  document.getElementById('rt').innerHTML = timeLeftString.fontsize(33);
+  document.getElementById('pt').innerHTML = timePassedString.fontsize(33);
+  document.getElementById('pt').innerHTML = timePassedString.fontsize(33);
+  if (fracLeft >= 100) {
+    document.getElementById('title').innerHTML = 'Done!'.fontsize(46).fontcolor('Red');
+  } else {
+    document.getElementById('title').innerHTML = '';
+  }
   tt=display_c();
 }
     </script>
   </head>
+  <span id="title">
 
+  </span>
   <body onload=display_ct(); align="center">
     <p class="bottom-three"
     <font>
       Time Left:
     </font>
 
-    </p>
     <span id='rt' ></span>
+    </p>
+
+  </body>
+  <body onload=display_ct(); align="center">
+    <p class="bottom-three"
+    <font>
+      Time Passed:
+    </font>
+
+    <span id='pt' ></span>
+    </p>
 
   </body>
   <body onload=display_ct(); align="center">
@@ -82,8 +107,8 @@ function display_ct() {
       Percentage completed:
     </font>
 
-    </p>
     <span id='ct' ></span>
+    </p>
 
   </body>
   <body onload=display_ct(); align="center">
@@ -92,8 +117,8 @@ function display_ct() {
       Current time:
     </font>
 
-    </p>
     <span id='currentTime' ></span>
+    </p>
 
   </body>
 </html>
