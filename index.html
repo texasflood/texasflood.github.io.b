@@ -76,10 +76,8 @@ function display_ct() {
   timePassedString = formatTime(x - start, false);
   document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,lengthToShow) + ' %').fontsize(33);
   document.getElementById('currentTime').innerHTML = (moment().tz('Europe/London').format('Do MMM YYYY, HH:mm:ss ZZ')).fontsize(33);
-  document.getElementById('rt').innerHTML = timeLeftString.fontsize(33);
-  document.getElementById('pt').innerHTML = timePassedString.fontsize(33);
-  <!--document.getElementById('pt2').innerHTML = moment.duration(moment().diff(moment('24 Jul 2015 14:15:00 +0100','DD MMM YYYY HH:mm:ss ZZ'))).format().fontsize(33);-->
-  <!--document.getElementById('rt2').innerHTML = moment.duration(moment('26 Aug 2015 18:40:00 +0100','DD MMM YYYY HH:mm:ss ZZ').diff(moment())).format().fontsize(33);-->
+  document.getElementById('pt').innerHTML = moment.duration(moment().diff(moment('24 Jul 2015 14:15:00 +0100','DD MMM YYYY HH:mm:ss ZZ'))).format('D [Days], HH:mm:ss').fontsize(33);
+  document.getElementById('rt').innerHTML = moment.duration(moment('26 Aug 2015 18:40:00 +0100','DD MMM YYYY HH:mm:ss ZZ').diff(moment()) + moment.duration(1, "seconds")).format('D [Days], HH:mm:ss').fontsize(33);
   if (fracLeft >= 100) {
     document.getElementById('title').innerHTML = 'Done!'.fontsize(46).fontcolor('Red');
   } else {
