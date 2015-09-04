@@ -16,7 +16,7 @@ function display_c(){
   mytime=setTimeout('display_ct()',refresh)
 }
 
-function formatTime(timeLeftMilli) {
+function formatTime(timeLeftMilli, roundUp) {
   var timeLeftSeconds = timeLeftMilli/1000;
   var timeLeftMinutes = timeLeftSeconds/60;
   var timeLeftHours = timeLeftMinutes/60;
@@ -24,12 +24,20 @@ function formatTime(timeLeftMilli) {
   if (timeLeftMilli >= 0) {
     timeLeftDays = String(Math.floor(timeLeftDays));
     timeLeftHours = Math.floor(timeLeftHours % 24);
-    timeLeftSeconds = Math.floor(timeLeftSeconds % 60);
+    if (roundUp) {
+      timeLeftSeconds = Math.ceil(timeLeftSeconds % 60);
+    } else {
+      timeLeftSeconds = Math.floor(timeLeftSeconds % 60);
+    }
     timeLeftMinutes = Math.floor(timeLeftMinutes % 60);
   } else {
     timeLeftDays = String(Math.ceil(timeLeftDays));
     timeLeftHours = Math.ceil(timeLeftHours % 24);
-    timeLeftSeconds = Math.ceil(timeLeftSeconds % 60);
+    if (roundUp) {
+      timeLeftSeconds = Math.ceil(timeLeftSeconds % 60);
+    } else {
+      timeLeftSeconds = Math.floor(timeLeftSeconds % 60);
+    }
     timeLeftMinutes = Math.ceil(timeLeftMinutes % 60);
   }
   if (timeLeftMilli >= 0 && timeLeftHours < 10) {
@@ -62,8 +70,8 @@ function display_ct() {
   if (x < start) {
     lengthToShow = lengthToShow + 1;
   }
-  timeLeftString = formatTime(end - x);
-  timePassedString = formatTime(x - start);
+  timeLeftString = formatTime(end - x, true);
+  timePassedString = formatTime(x - start, false);
   document.getElementById('ct').innerHTML = (String(fracLeft).substring(0,lengthToShow) + ' %').fontsize(33);
   document.getElementById('currentTime').innerHTML = (moment().format('Do MMM YYYY, HH:mm:ss ZZ')).fontsize(33);
   document.getElementById('rt').innerHTML = timeLeftString.fontsize(33);
